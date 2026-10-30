@@ -1,0 +1,13 @@
+TAREA 3.1 | Pruebas reales de las estructuras en C#
+Entorno: .NET 8.0.33
+Sistema: Ubuntu 24.04.3 LTS
+CORRECTO: PilaEstatica
+CORRECTO: ColaSimple
+CORRECTO: ColaCircular
+DEMOSTRACIÓN | capacidad 5
+Pila: Push 10,20,30; Pop=30; Peek=20; top=1.
+Simple: quedan 30,40,50; front=2; rear=4; Enqueue 60 rechazado.
+Circular: arreglo [60,70,30,40,50]; front=2; rear=1; llena=True.
+Circular: salida 30,40,50,60,70; vacía=True; front=0; rear=-1.
+TOTAL: 214629 verificaciones superadas.
+No se ejecutó Windows Forms en esta prueba de consola.
